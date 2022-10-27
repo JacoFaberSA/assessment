@@ -77,7 +77,12 @@ function getProductsInCategory(string $category): array {
     return [];
 }
 
-
+/**
+ * Check if product exists within specified category
+ * @param string $category
+ * @param string $product
+ * @return bool
+ */
 function doesProductExistInCategory(string $category, string $product): bool {
     global $data;
     $dataFilter = new DataFilter();
