@@ -21,3 +21,14 @@ There are two functions should be implemented:
 - PHP Unit Testing.
 - Frontend display/Layout/Template to process data.
 - Git repository to track the code changes.
+
+## Setup
+1. Clone repo
+2. Run `composer install`
+
+Entry point: template.php
+
+### Development Environment
+PHP 7.4.23
+Tests: PHPUnit 9.5.25, Time: 00:00.011, Memory: 4.00 MB
+OK (7 tests, 12 assertions)
